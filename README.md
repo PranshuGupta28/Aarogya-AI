@@ -1,16 +1,146 @@
-# React + Vite
+# 🩺 AarogyaAI
+### AI-Powered Medical Assistant (React + Gemini API)
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+---
 
-Currently, two official plugins are available:
+## 🔗 Repository Link
+👉 https://github.com/PranshuGupta28/Aarogya-AI
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 📌 Project Overview
+MediAI is an AI-based medical chatbot that provides **professional healthcare responses** using the Gemini API.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The system is designed with strict prompt engineering to ensure:
+- ✅ Only medical-related queries are answered  
+- ❌ Non-medical queries are restricted  
+- 🧠 Responses are safe and professional  
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## ✨ Features
+
+### 🧠 AI Medical Assistant
+- Powered by Gemini API  
+- Generates structured responses  
+
+### 🎯 Smart Query Filtering
+- Accepts only healthcare-related queries  
+- Prevents irrelevant prompts  
+
+### 💬 Interactive UI
+- Chat-based interface  
+- Clean and simple design  
+
+### ⚡ Fast Performance
+- Built with React + Vite  
+- Optimized for speed  
+
+### 🔒 Safety Focus
+- Avoids harmful outputs  
+- Maintains professional tone  
+
+---
+
+## 🛠️ Tech Stack
+
+- ⚛️ React.js  
+- ⚡ Vite  
+- 🤖 Gemini API  
+- 🎨 CSS  
+
+---
+
+## 📂 Project Structure
+
+```bash
+AAROGYA-AI/
+│── public/
+│── src/
+│   ├── assets/
+│   ├── components/
+│   │   ├── Main/
+│   │   │   ├── Main.jsx
+│   │   │   ├── Main.css
+│   │   ├── Sidebar/
+│   │   │   ├── Sidebar.jsx
+│   │   │   ├── Sidebar.css
+│   │
+│   ├── config/
+│   │   └── MediAI.js
+│   │
+│   ├── conf/
+│   │   └── conf.js
+│   │
+│   ├── context/
+│   │   └── Context.jsx
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   ├── index.css
+│
+│── .env
+│── index.html
+│── package.json
+│── vite.config.js
+│── README.md
+```
+
+
+
+
+
+## ⚙️ Setup & Installation
+
+### 1️⃣ Clone Repository
+
+git clone https://github.com/PranshuGupta28/Aarogya-AI.git
+```bash
+cd Aarogya-AI
+```
+
+2️⃣ Install Dependencies
+```bash
+npm install
+```
+3️⃣ Setup Environment Variables
+
+Create a .env file in the root directory:
+```bash
+VITE_GEMINI_API_KEY=your_api_key_here
+```
+4️⃣ Run Project
+```bash
+npm run dev
+```
+
+
+🧠 How It Works
+
+User enters a query
+
+System checks if the query is medical-related
+
+If valid → request is sent to Gemini API
+
+AI processes and generates response
+
+Response is displayed in the UI
+
+⚠️ Disclaimer
+
+This project is for educational purposes only.
+It is NOT a substitute for professional medical advice.
+Always consult a certified doctor for real medical concerns.
+
+
+🚀 Future Enhancements
+
+🏥 Doctor recommendation system
+
+🌍 Multi-language support
+
+📊 Health report analysis
+
+📱 Mobile application
+
